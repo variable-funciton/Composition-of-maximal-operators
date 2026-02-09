@@ -3,7 +3,7 @@
 If you use this software in your research, please cite it as follows:
 
 ### APA Style
-Takeshi Iida. (2026). Software Title (Version 1.0). GitHub. URL
+Takeshi Iida. (2026). Software Title (Version 1.0.0). GitHub. URL
 
 ### BibTeX
 @software{Composition of maximal operators,
@@ -11,5 +11,5 @@ Takeshi Iida. (2026). Software Title (Version 1.0). GitHub. URL
   title = {Composition of maximal operators},
   url = {https://github.com},
   version = {1.0.0},
-  year = {2026}
+  year = {2026-02-09}
 }
