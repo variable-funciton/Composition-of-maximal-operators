@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Iida"
+    given-names: "Takeshi"
+title: "Fractional operators behaviour"
+version: 1.0
+date-released: 2026
+url: "https://github.com"
