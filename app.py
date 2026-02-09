@@ -57,7 +57,7 @@ with st.sidebar:
     default_view = float(peak_max * 1.5)
     # スライダーの最小値を2.0、最大値を1500に固定して安定させる
     x_view = st.slider("View Range (±x)", 2.0, 1500.0, min(max(default_view, 5.0), 1000.0))
-    st.write("The definitions of fractional operators as follows (one variable):")
+    st.write("The definition of fractional maximal operator as follows(one variable):")
     st.latex(r'''
     \begin{align*}
     M_{\alpha}f(x) &:=\sup_{\substack{ I\subset \mathbb{R},\\ I: \text{interval} }} |I|^{\alpha} \frac{1}{|I|} \int_{I} | f(y) | dy\cdot \chi_{I}(x).
@@ -160,3 +160,4 @@ st.download_button(
     file_name=f"Compositions of maximal operators behaviour:M_{alpha} and M_{beta}.pdf",
     mime="application/pdf"
 )
+
