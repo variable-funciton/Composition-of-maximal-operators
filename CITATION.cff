@@ -3,7 +3,9 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Iida"
     given-names: "Takeshi"
+    orcid: "https://orcid.org/0000-0001-5906-0954"
 title: "Fractional operators behaviour"
-version: 1.0
-date-released: 2026
+version: 1.0.0
+date-released: 2026-0209
 url: "https://github.com"
+
