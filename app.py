@@ -125,6 +125,7 @@ ax.legend(loc="upper right")
 ax.grid(True, linestyle=':', alpha=0.6)
 
 st.pyplot(fig)
+plt.close(fig)
 
 # --- 3. 解析情報の表示 ---
 st.write(f"### Analysis for $\\alpha+\\beta = {S}$")
