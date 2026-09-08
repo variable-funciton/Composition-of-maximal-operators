@@ -59,9 +59,9 @@ with st.sidebar:
     x_view = st.slider("View Range (±x)", 2.0, 1500.0, min(max(default_view, 5.0), 1000.0))
     st.write("The definition of fractional maximal operator as follows(one variable):")
     st.latex(r'''
-    \begin{align*}
+    \begin{aligned}
     M_{\alpha}f(x) &:=\sup_{\substack{ I\subset \mathbb{R},\\ I: \text{interval} }} |I|^{\alpha} \frac{1}{|I|} \int_{I} | f(y) | dy\cdot \chi_{I}(x).
-    \end{align*}
+    \end{aligned}
     ''')
 
 def fractional_maximal(x,A):
@@ -158,7 +158,7 @@ fig.savefig(buf, format="pdf", bbox_inches="tight")
 st.download_button(
     label="Export a graph to PDF",
     data=buf.getvalue(),
-    file_name=f"Compositions of maximal operators behaviour:M_{alpha} and M_{beta}.pdf",
+    file_name=f"Compositions_of_max_operators_behaviour_M_{alpha} and M_{beta}.pdf",
     mime="application/pdf"
 )
 
